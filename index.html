@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>2nd Practice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav__icons"><i class="material-icons">menu</i></div>
+      <div class="nav__items">
+        <span class="nav__item">about</span>
+        <span class="nav__multiplier">x</span>
+        <span class="nav__item">categories</span>
+        <span class="nav__multiplier">x</span>
+        <span class="nav__item">features</span>
+      </div>
+      <div class="nav__circle">●</div>
+    </nav>
+
+    <main class="main__grid">
+      <header class="header">
+        <h3 class="header__title">Popular Stories</h3>
+        <span class="header__icon">
+
+            <i class="material-icons">search</i>
+        </span>
+      </header>
+
+      <div class="slider">
+        <span class="slider__arrow-back"
+          >←</span
+        >
+        <article class="slider__article-content">
+          <div class="article__photo"></div>
+          <div class="article__info">
+            <div class="article__pre-title">lifestyle</div>
+            <h1 class="article__title">The Joys and Pitfalls of Solo Travel</h1>
+            <p class="article__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              explicabo, itaque ipsam voluptatum iusto officiis illum quasi enim
+              reprehenderit vitae! Ex quasi consectetur qui quas esse ducimus
+              doloribus labore fugiat!
+            </p>
+            <small class="article__date">Feb 2, 2020</small>
+          </div>
+        </article>
+        <span class="slider__arrow-forward"
+          >→</span
+        >
+      </div>
+
+      <footer class="footer">
+        <div class="void"></div>
+        <ul class="page__list">
+          <a href="#" class="page">1</a>
+          <a href="#" class="page page--current">2</a>
+          <a href="#" class="page">3</a>
+          <a href="#" class="page">4</a>
+        </ul>
+        <div class="footer__icons">
+          <div class="footer__icon">next</div>
+          <div class="footer__icon">🍕</div>
+        </div>
+      </footer>
+
+    </main>
+  </body>
 </html>
