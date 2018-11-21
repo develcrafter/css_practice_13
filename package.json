@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/develcrafter/css_practice_13#readme",
   "scripts": {
-    "start": "parcel pre_index.html"
+    "start": "parcel index.html"
   },
   "dependencies": {
     "postcss-preset-env": "^6.4.0"
